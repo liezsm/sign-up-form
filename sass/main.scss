@@ -45,11 +45,11 @@ body {
   width: 100%;
   display: grid;
   place-items: center;
-  background: url("/images/bg-intro-mobile.png") center / cover no-repeat, $red;
+  background: url("./images/bg-intro-mobile") center / cover no-repeat, $red;
   // background-color: $red;
 
   @include desktop() {
-    background: url("/images/bg-intro-desktop.png") center / cover no-repeat,
+    background: url("./images/bg-intro-desktop.png") center / cover no-repeat,
       $red;
   }
 }
