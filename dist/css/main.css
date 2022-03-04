@@ -70,11 +70,11 @@ body {
 }
 
 .main_text {
-  padding: 55px 0;
+  padding: 3.4375rem 0;
 }
 
 .main_text_title {
-  font-size: 23px;
+  font-size: 1.4375rem;
   font-weight: 700;
   text-align: center;
   margin: auto;
@@ -84,10 +84,10 @@ body {
 
 @media (min-width: 768px) {
   .main_text_title {
-    font-size: 42px;
+    font-size: 2.625rem;
     text-align: left;
     width: 70%;
-    margin: 0 0 28px 0;
+    margin: 0 0 1.75rem 0;
   }
 }
 
@@ -109,14 +109,14 @@ body {
 .main_signup_trialbtn {
   background-color: #6055a5;
   width: 100%;
-  font-size: 12px;
-  padding: 25px 70px;
-  margin-bottom: 18px;
+  font-size: 0.75rem;
+  padding: 1.5625rem 4.375rem;
+  margin-bottom: 1.125rem;
 }
 
 @media (min-width: 768px) {
   .main_signup_trialbtn {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 
@@ -137,7 +137,7 @@ body {
 
 .main_signup .signup_form .input_field input {
   width: 100%;
-  padding: 18px 21px;
+  padding: 1.125rem 1.3125rem;
   font-weight: bold;
   outline: none;
 }
@@ -188,8 +188,8 @@ body {
   background-color: #38cc8c;
   width: 100%;
   text-transform: uppercase;
-  font-size: 14px;
-  padding: 16px 13px;
+  font-size: 0.875rem;
+  padding: 1rem 0.8125rem;
   margin-bottom: 1rem;
 }
 
@@ -199,7 +199,7 @@ body {
 
 @media (min-width: 768px) {
   .main_signup .signup_form .submit_btn {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 
