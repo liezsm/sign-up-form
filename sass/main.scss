@@ -123,27 +123,49 @@ body {
       background-color: #fff;
       border-radius: 0.4rem;
       padding: 1rem;
+      box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.3);
 
       .input_field {
         width: 100%;
         margin-bottom: 1rem;
 
+        position: relative;
+
         input {
           width: 100%;
           padding: 18px 21px;
           font-weight: bold;
+          outline: none;
 
           &::placeholder {
             color: black;
           }
         }
 
-        .input:valid {
-          color: yellowgreen;
+        .icon {
+          position: absolute;
+          display: none;
+          top: 1rem;
+          right: 1rem;
+        }
+
+        .small {
+          display: block;
+          font-style: italic;
+          color: red;
+          text-align: right;
+          margin-right: 5px;
+          margin-top: 0.5rem;
         }
 
         .input:invalid {
-          color: orangered;
+          color: red;
+          border-color: red;
+          background-color: #fff;
+        }
+
+        .input:valid {
+          color: green;
         }
       }
 

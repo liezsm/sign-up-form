@@ -29,21 +29,31 @@
           $20/mo. thereafter
       </button>
 
-      <form class="signup_form">
+      <form class="signup_form" id="form"  >
 
         <div class="input_field">
-          <input type="text" class="input" placeholder="First Name " required>
+          <input type="text" class="input" id="fn" placeholder="First Name " >
+          <img src="./images/icon-error.svg" alt="icon-error" class="icon ">
+         
         </div>
         <div class="input_field">
-          <input type="text" class="input" placeholder="Last Name " required>
+          <input type="text" class="input" placeholder="Last Name " id="ln"  >
+          <img src="./images/icon-error.svg" alt="icon-error" class="icon">
+         
         </div>
         <div class="input_field">
-          <input type="email" class="input" placeholder="Email Address" required>
+          <input type="email" class="input" placeholder="Email Address" id="email"  >
+          <img src="./images/icon-error.svg" alt="icon-error" class="icon show-error">
+         
         </div>
         <div class="input_field">
-          <input type="password"class="input"  placeholder="  Password" required>
+          <input type="password" class="input"  placeholder="  Password" id="pwd" >
+          <img src="./images/icon-error.svg" alt="icon-error" class="icon">
+         
         </div>
-        <button type="submit" class="submit_btn">Claim your free trial</button>
+        <button type="submit" class="submit_btn" id="submit-btn">Claim your free trial</button>
+
+
         <div class="terms">
         <small>By clicking the button, you are agreeing to our <a href="#" class="signup_form_link">Terms and Services</a></small>
         </div>
@@ -63,6 +73,6 @@
 
 
   
-
+<script src="app.js"></script>
 </body>
 </html>

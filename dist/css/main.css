@@ -125,17 +125,21 @@ body {
   background-color: #fff;
   border-radius: 0.4rem;
   padding: 1rem;
+  -webkit-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.3);
 }
 
 .main_signup .signup_form .input_field {
   width: 100%;
   margin-bottom: 1rem;
+  position: relative;
 }
 
 .main_signup .signup_form .input_field input {
   width: 100%;
   padding: 18px 21px;
   font-weight: bold;
+  outline: none;
 }
 
 .main_signup .signup_form .input_field input::-webkit-input-placeholder {
@@ -154,12 +158,30 @@ body {
   color: black;
 }
 
-.main_signup .signup_form .input_field .input:valid {
-  color: yellowgreen;
+.main_signup .signup_form .input_field .icon {
+  position: absolute;
+  display: none;
+  top: 1rem;
+  right: 1rem;
+}
+
+.main_signup .signup_form .input_field .small {
+  display: block;
+  font-style: italic;
+  color: red;
+  text-align: right;
+  margin-right: 5px;
+  margin-top: 0.5rem;
 }
 
 .main_signup .signup_form .input_field .input:invalid {
-  color: orangered;
+  color: red;
+  border-color: red;
+  background-color: #fff;
+}
+
+.main_signup .signup_form .input_field .input:valid {
+  color: green;
 }
 
 .main_signup .signup_form .submit_btn {
