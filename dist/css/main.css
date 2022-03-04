@@ -24,14 +24,13 @@ body {
   display: -ms-grid;
   display: grid;
   place-items: center;
-  background: url(/images/bg-intro-mobile.png) center/cover no-repeat;
   background-color: #ff7a7a;
+  background: url("../images/bg-intro-mobile.png") center/cover no-repeat;
 }
 
 @media (min-width: 768px) {
   body {
-    background: url(/images/bg-intro-desktop.png) center/cover no-repeat;
-    background-color: #ff7a7a;
+    background: url("../images/bg-intro-desktop.png") center/cover no-repeat;
   }
 }
 
