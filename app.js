@@ -36,7 +36,8 @@ const checkInputs = () => {
 
         setTimeout( () => {
              i.nextElementSibling.style.display = 'none';
-             small.style.display = 'none';
+//              small.style.display = 'none';
+            parent.removeChild(small)
              clearFields()
 
         }, 2000)
